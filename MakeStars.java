@@ -10,10 +10,10 @@ public class MakeStars {
         String token = s2.next();
         for(int i = 0; i < token.length(); i++) {
           System.out.print("*");
+          System.out.print(" ");
         }
-        System.out.print(" ");
+        System.out.println();
       }
-      System.out.println();
     }
   }
 }
