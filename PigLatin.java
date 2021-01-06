@@ -17,6 +17,7 @@ public class PigLatin {
         System.out.println();
       }
     }
+    s.close();
   }
   
   public static String pigLatinSimple(String s) {
